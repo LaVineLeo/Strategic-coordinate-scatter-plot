@@ -11,7 +11,7 @@
 4. 决策支持：战略坐标可以为组织的决策提供支持和指导，帮助组织在复杂和不确定的环境中做出明智的决策。
 
 1 战略坐标的机理图
-![](file:///C:\Users\69493\AppData\Local\Temp\ksohtml24440\wps1.png)
+![index](https://github.com/LaVineLeo/Strategic-coordinate-scatter-plot/blob/main/%E6%88%98%E7%95%A5%E5%9D%90%E6%A0%87%E6%9C%BA%E7%90%86.jpg)
 1.1 战略坐标的计算公式
 战略坐标= 市场需求权重 × 市场需求得分 + 竞争优势权重 × 竞争优势得分
 ```
@@ -53,13 +53,13 @@ print("类团向心度：", cluster_centrality)
 encircle(x0, y0, ec="k", fc="#37ad6b", alpha=0.15) 
 ```
 4. 数据的格式可以参考这个图，当然战略坐标的应用场景有很多，在做企业的市场竞争也能经常用得到，指标可以自己搭配，然后做一个数据降维（PCA、LDA、t-SNE、NMF、ICA等等），并不局限于广义上的类团密度和类团向心度（但是现有研究做这个的很少，反而是业界做得比较多）
-![[Pasted image 20231201101904.png]]
+![index](https://github.com/LaVineLeo/Strategic-coordinate-scatter-plot/blob/main/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.jpg)
 
 2.2 宏观战略坐标
-https://github.com/LaVineLeo/Strategic-coordinate-scatter-plot/blob/main/%E5%AE%8F%E8%A7%82%E5%9B%BE.jpg
+![index](https://github.com/LaVineLeo/Strategic-coordinate-scatter-plot/blob/main/%E5%AE%8F%E8%A7%82%E5%9B%BE.jpg)
 2.3微观战略坐标
 其实微观战略坐标分析还能再做一个战略坐标（类似于套娃Doge），因为这些小节点可以理解为是一个领域内（可以是不同行业、不同地域的）的企业数量，举个例子某区域地产公司的战略坐标分析，这部分其实可做的点有很多（欢迎大家来探讨）。
-![[Pasted image 20231201101011.png]]
+![index](https://github.com/LaVineLeo/Strategic-coordinate-scatter-plot/blob/main/%E5%BE%AE%E8%A7%82%E5%9B%BE.jpg)
 
 
 更多的论文细节可以参考以下这篇文章：
